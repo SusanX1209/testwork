@@ -505,7 +505,6 @@ def pseudo_label(ub_train_dataset, model, ema_model, args, logger):
 
     return pb_train_dataset
 
-PR = []
 
 def semi_train(lb_train_loader, ub_train_loader, model, ema_m, optimizer, scheduler, epoch, args, logger, criterion_lb, criterion_ub, criterion_rk_lb):
 
@@ -750,4 +749,5 @@ def validate(val_loader, model, args, logger):
 
 
 if __name__ == '__main__':
+    PR = []
     main()
