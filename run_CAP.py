@@ -7,10 +7,7 @@ import json
 import numpy as np
 
 import torch
-from torch.optim import lr_scheduler
-import torch.optim
-import torch.utils.data
-from sklearn import metrics
+
 from torch.utils.tensorboard import SummaryWriter
 from collections import OrderedDict
 import _init_paths
